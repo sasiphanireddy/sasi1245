@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,k,a[30],des=0,i,j;
+clrscr();
+scanf("%d%d",&n,&k);
+for(j=0;j<n;j++)
+{
+scanf("%d",&a[j]);
+}
+for(i=0;i<n;i++)
+{
+if(a[i]==k)
+{
+printf("yes");
+des=0;
+break;
+}
+else
+{
+des=1;
+}
+}
+if(des==1)
+{
+printf("no");
+}
+getch();
+}
