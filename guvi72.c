@@ -4,7 +4,6 @@ void main()
 {
 char a[20];
 int i=0,cou=0,d=0;
-clrscr();
 gets(a);
 while(a[i]!='\0')
 {
