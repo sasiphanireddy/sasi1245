@@ -6,6 +6,7 @@ char s[30];
 gets(s);
 switch(printf("%s",s))
 {
+    
 }
 getch();
 }
